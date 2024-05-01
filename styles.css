@@ -1,0 +1,142 @@
+/* styles.css */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 20px 0;
+}
+
+.artist-name {
+    font-size: 27px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000000;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+    display: inline-block; /* Pour centrer */
+}
+.artist-name:hover {
+    color: inherit !important;
+    text-decoration: none !important;
+}
+
+.slogan {
+    font-size: 16px;
+    color: #6e6c6c;
+    margin-top: 5px;
+}
+
+/* Pour centrer les éléments dans le navbar */
+.navbar-nav {
+    margin: 0 auto;
+}
+
+/* Style du bouton de menu mobile avec contour gris */
+/* .navbar-toggler {
+    border: 1px solid #888888;
+} */
+
+.fixed-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    background-color: #ffffff; /* Pour assurer la visibilité du bouton */
+}
+
+/* Centrer le bouton de menu mobile */
+.d-block {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.modal-dialog {
+    margin:50px 20px; /* Décalage de 100px vers le bas */
+}
+/* Style du fond autour du modal */
+/* Style du fond autour du modal */
+.modal::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(128, 128, 128, 0.5); /* Gris semi-transparent */
+    z-index: -1; /* Assure que le fond reste derrière le modal */
+}
+/* Pour centrer les éléments dans le modal */
+.modal-body {
+    text-align: center;
+}
+
+/* Style du fond du modal */
+.modal-content {
+    background-color: #333; /* Gris sombre */
+    color: #fff; /* Blanc */
+}
+
+.list-group-item {
+    background-color: #333; /* Gris sombre */
+    border-color: #666; /* Couleur de la bordure */
+}
+
+.link-page{
+    background-color: #333; /* Gris sombre */
+    border-color: #666; /* Couleur de la bordure */
+    color: #e7e7e7; /* Blanc */
+    text-decoration: none; /* Supprimer le soulignement */
+}
+.link-page:hover {
+    color: #ffffff; /* Gris sombre */
+    text-decoration: none !important; /* Supprimer le soulignement */
+}
+.active {
+    font-weight: 500; /* Gras pour l'élément actif */
+}
+
+
+/* Style des séparations */
+.modal-header, .modal-body {
+    border-color: #666; /* Couleur de la bordure */
+}
+
+.close {
+    color: #fff !important; /* Blanc */
+}
+
+.close:hover {
+    color: #fcfcfc !important; /* Gris pour le survol */
+}
+
+.bg-blac {
+    background-color: #000;
+}
+
+.bg-whit {
+    background-color: #fdfdfd;
+}
+
+/* Pour centrer verticalement l'image */
+.h-100 {
+    height: 100%;
+}
+
+/* Pour centrer l'image horizontalement */
+.d-flex {
+    display: flex;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
