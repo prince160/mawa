@@ -41,6 +41,15 @@ header {
     border: 1px solid #888888;
 } */
 
+.fixed-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999; /* Pour s'assurer que le bouton est au-dessus des autres éléments */
+    background-color: #ffffff; /* Pour assurer la visibilité du bouton */
+}
+
 /* Centrer le bouton de menu mobile */
 .d-block {
     margin: 0 auto;
