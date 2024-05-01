@@ -46,7 +46,6 @@ header {
     top: 0;
     left: 0;
     right: 0;
-    z-index: 9999; /* Pour s'assurer que le bouton est au-dessus des autres éléments */
     background-color: #ffffff; /* Pour assurer la visibilité du bouton */
 }
 
@@ -57,7 +56,7 @@ header {
 }
 
 .modal-dialog {
-    margin: 100px 20px; /* Décalage de 100px vers le bas */
+    margin:20px; /* Décalage de 100px vers le bas */
 }
 /* Style du fond autour du modal */
 /* Style du fond autour du modal */
