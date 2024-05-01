@@ -58,6 +58,7 @@ header {
 /* Pour centrer le modal */
 .modal-dialog {
     margin: 20px;
+    z-index: 999;
 }
 /* Style du fond autour du modal */
 /* Style du fond autour du modal */
